@@ -4,7 +4,6 @@
     <groupId>pl.mmadej</groupId>
     <artifactId>spring</artifactId>
     <version>0.1.22-SNAPSHOT</version>
-
     <scm>
         <connection>scm:git:git@github.com:maciekcom/spring.git</connection>
         <url>scm:git:git@github.com:maciekcom/spring.git</url>
