@@ -20,6 +20,7 @@
             <url>http://localhost:8080/archiva/repository/internal/</url>
         </repository>
     </distributionManagement>
+
     <build>
         <plugins>
             <plugin>
