@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>pl.mmadej</groupId>
     <artifactId>spring</artifactId>
-    <version>0.36</version>
+    <version>0.36-SNAPSHOT</version>
     <scm>
         <connection>scm:git:git@github.com:maciekcom/spring.git</connection>
         <url>scm:git:git@github.com:maciekcom/spring.git</url>
