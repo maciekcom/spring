@@ -14,6 +14,14 @@
         <developerConnection>scm:git:git@github.com:maciekcom/spring.git</developerConnection>
     </scm>
 
+    <distributionManagement>
+        <repository>
+            <id>archiva</id>
+            <name>Local Archiva</name>
+            <url>http://localhost:8080/archiva/repository/internal/</url>
+        </repository>
+    </distributionManagement>
+
     <build>
         <plugins>
             <plugin>
@@ -23,5 +31,12 @@
         </plugins>
     </build>
 
-    
+    <repositories>
+        <repository>
+            <id>internal</id>
+            <url>http://localhost:8080/archiva/repository/internal/</url>
+        </repository>
+    </repositories>
+
+
 </project>
