@@ -10,6 +10,7 @@
         <developerConnection>scm:git:git@github.com:maciekcom/spring.git</developerConnection>
     </scm>
 
+
     <distributionManagement>
         <snapshotRepository>
             <id>snapshots</id>
