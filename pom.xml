@@ -59,7 +59,7 @@
                         <directory>src/main/resources</directory>
                     </resource>
                     <resource>
-                        <directory>config/dev</directory>
+                        <directory>src/main/dev</directory>
                         <filtering>true</filtering>
                         <includes>
                             <include>app.properties</include>
