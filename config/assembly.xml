@@ -10,7 +10,7 @@
 
     <fileSets>
         <fileSet>
-            <directory></directory>
+            <directory>puppet</directory>
             <outputDirectory>.</outputDirectory>
             <includes>
                 <include>app.properties</include>

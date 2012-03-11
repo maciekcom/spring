@@ -54,6 +54,18 @@
         <profile>
             <id>start</id>
             <build>
+                <resources>
+                    <resource>
+                        <directory>src/main/resources</directory>
+                    </resource>
+                    <resource>
+                        <directory>config/dev</directory>
+                        <filtering>true</filtering>
+                        <includes>
+                            <include>app.properties</include>
+                        </includes>
+                    </resource>
+                </resources>
                 <plugins>
                     <plugin>
                         <groupId>org.codehaus.mojo</groupId>
@@ -77,11 +89,6 @@
     </profiles>
 
     <dependencies>
-        <dependency>
-            <groupId>pl.mmadej</groupId>
-            <artifactId>config</artifactId>
-            <version>0.10</version>
-        </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
