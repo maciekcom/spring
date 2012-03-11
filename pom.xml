@@ -2,15 +2,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>pl.mmadej</groupId>
-        <artifactId>parent</artifactId>
-        <version>1.0</version>
-    </parent>
-
     <groupId>pl.mmadej</groupId>
-    <artifactId>puppet-configuration</artifactId>
-    <version>0.21-SNAPSHOT</version>
+    <artifactId>parent</artifactId>
+    <version>1.0</version>
+	<packaging>pom</packaging>
+	
+	<modules>
+		<module>application</module>
+		<module>puppet-configuration</module>
+	</modules>
 
     <scm>
         <connection>scm:git:git@github.com:maciekcom/spring.git</connection>
@@ -38,11 +38,4 @@
             </plugin>
         </plugins>
     </build>
-    <repositories>
-        <repository>
-            <id>internal</id>
-            <url>http://localhost:8080/archiva/repository/internal/</url>
-        </repository>
-    </repositories>
-
 </project>
