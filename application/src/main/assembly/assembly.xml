@@ -11,6 +11,16 @@
     <dependencySets>
         <dependencySet>
             <outputDirectory>lib</outputDirectory>
+            <excludes>
+                <exclude>pl.mmadej:puppet-configuration</exclude>
+            </excludes>
+        </dependencySet>
+        <dependencySet>
+            <outputDirectory>puppet</outputDirectory>
+            <unpack>true</unpack>
+            <includes>
+                <include>pl.mmadej:puppet-configuration</include>
+            </includes>
         </dependencySet>
     </dependencySets>
 </assembly>
