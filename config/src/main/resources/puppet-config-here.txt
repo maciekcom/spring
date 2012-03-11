@@ -1,0 +1,1 @@
+for /L %f in (22,1,55) do git push origin :refs/tags/spring-0.%f
