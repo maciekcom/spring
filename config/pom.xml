@@ -24,7 +24,7 @@
         </repository>
     </distributionManagement>
 
-    <build>ł
+    <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
