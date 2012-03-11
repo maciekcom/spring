@@ -25,7 +25,8 @@
     <build>
         <resources>
             <resource>
-                <directory>.</directory>
+                <directory>puppet</directory>
+                <filtering>false</filtering>
                 <includes>
                     <include>app.properties</include>
                 </includes>
