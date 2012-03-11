@@ -10,7 +10,7 @@
 
     <groupId>pl.mmadej</groupId>
     <artifactId>puppet-configuration</artifactId>
-    <version>0.21</version>
+    <version>0.22-SNAPSHOT</version>
 
     <scm>
         <connection>scm:git:git@github.com:maciekcom/spring.git</connection>
