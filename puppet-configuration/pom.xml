@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>pl.mmadej</groupId>
-    <artifactId>puppet-config</artifactId>
+    <artifactId>puppet-configuration</artifactId>
     <version>0.17-SNAPSHOT</version>
 
     <scm>
